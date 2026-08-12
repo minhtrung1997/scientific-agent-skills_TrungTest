@@ -723,6 +723,9 @@ packages = ["benchling-sdk", "biopython", "boto3", "httpx"]
 [skills.dnanexus-integration]
 packages = ["dxpy>=0.400"]
 
+[skills.dnanexus-integration-custom]
+packages = ["dxpy>=0.412"]
+
 [skills.latchbio-integration]
 packages = ["latch"]
 

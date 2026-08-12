@@ -1,0 +1,4 @@
+# Keep the fork-local DNAnexus custom skill during upstream merges.
+skills/dnanexus-integration-custom/** merge=ours
+tests/dnanexus-integration-custom/** merge=ours
+docs/images/dnanexus-integration-custom.png merge=ours
