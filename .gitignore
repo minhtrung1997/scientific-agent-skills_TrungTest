@@ -3,9 +3,11 @@
 
 # Python
 .venv/
+.venv-*/
 .python-version
 __pycache__/
 .pytest_cache/
+.cache/
 
 # Secrets
 .env
@@ -13,6 +15,10 @@ __pycache__/
 # Project
 temp/
 research/
+
+# Generated local test/example artifacts
+/examples/
+/outputs/
 
 # Local agent tooling
 .claude/
@@ -24,3 +30,10 @@ research/
 skills-lock.json
 
 uv.lock
+
+# Local Nextflow launcher and run artifacts
+/nextflow
+/.nextflow/
+/.nextflow.log*
+/work/
+/nxf-tmp.*
